@@ -1,0 +1,37 @@
+[2026/10/22 21:08:17]: §9          __             _       
+[2026/10/22 21:08:17]: §9  _ __   / /  ___   __ _(_)_ __  
+[2026/10/22 21:08:17]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/22 21:08:17]: §9 | | | / /__| (_) | (_| | | | | |
+[2026/10/22 21:08:17]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/22 21:08:17]: §9                  |___/            
+[2026/10/22 21:08:17]: §9 By: www.nickuc.com - V 10.4.23
+[2026/10/22 21:08:17]: §9 
+[2026/10/22 21:08:18]: §3[nLogin] [DEBUG] All settings were loaded in 321 ms.
+[2026/10/22 21:08:18]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2026/10/22 21:08:18]: §3[nLogin] [DEBUG] All plugin messages were loaded in 126 ms (languageByClient=false).
+[2026/10/22 21:08:18]: §3[nLogin] [DEBUG] All proxy settings were loaded in 35 ms.
+[2026/10/22 21:08:18]: §3[nLogin] [DEBUG] Loading database...
+[2026/10/22 21:08:18]: §4[nLogin] [ERROR] §cCould not download new version (code = 200, content length = 3718927)
+[2026/10/22 21:08:18]: §3[nLogin] [DEBUG] Starting logger filter...
+[2026/10/22 21:08:24]: 
+[2026/10/22 21:08:24]:  §bThank you so much for choosing nLogin! §4<3
+[2026/10/22 21:08:24]: 
+[2026/10/22 21:08:24]:  §4For your safety, please read the message below:
+[2026/10/22 21:08:24]:   §cNever download nLogin from unknown sources.
+[2026/10/22 21:08:24]:   §cA modified version may contain malicious software.
+[2026/10/22 21:08:24]: 
+[2026/10/22 21:08:24]:  §3Trusted sources:
+[2026/10/22 21:08:24]:   §bwww.nickuc.com
+[2026/10/22 21:08:24]:   §bwww.github.com/nickuc
+[2026/10/22 21:08:24]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2026/10/22 21:08:24]: 
+[2026/10/22 21:08:24]:  §3Official support channels:
+[2026/10/22 21:08:24]:   §bDiscord group: §fwww.nickuc.com/discord
+[2026/10/22 21:08:24]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2026/10/22 21:08:24]:   §bEmail: §fsupport@nickuc.com
+[2026/10/22 21:08:24]:   §bYouTube: §fyoutube.com/nickuc
+[2026/10/22 21:08:24]: 
+[2026/10/22 21:08:24]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2026/10/22 21:08:24]:  §eand click the "Setup plugin" button to configure your plugin.
+[2026/10/22 21:08:24]: 
+[2026/10/22 21:13:17]: [nLogin] Download finished (took 301ms, hash = a88c660f291c4f5e604c455ca423d97478b8562a783765351030536fd0e0407a)
