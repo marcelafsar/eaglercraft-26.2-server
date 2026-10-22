@@ -1,2 +1,20 @@
 21:07:30.118 INFO  Limbo -- Starting server...
 21:07:31.572 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+21:33:05.124 INFO  Limbo -- Stopping server...
+21:33:05.130 INFO  Limbo -- Server stopped, Goodbye!
+21:33:14.127 INFO  Limbo -- Starting server...
+21:33:14.895 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+21:53:17.710 INFO  Limbo -- Player marcel connected (/127.0.0.1:57166) [V1_8]
+21:53:17.715 INFO  Limbo -- Player marcel disconnected
+21:53:22.541 INFO  Limbo -- Player marcel connected (/127.0.0.1:47454) [V1_8]
+21:53:22.616 INFO  Limbo -- Player marcel disconnected
+22:20:06.128 INFO  Limbo -- Stopping server...
+22:20:06.129 INFO  Limbo -- Server stopped, Goodbye!
+22:20:27.335 INFO  Limbo -- Starting server...
+22:20:28.896 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+22:35:25.416 INFO  Limbo -- Player Marcel connected (/127.0.0.1:46532) [V26_2]
+22:35:34.033 INFO  Limbo -- Player Marcel disconnected
+22:37:38.424 INFO  Limbo -- Player Marcel connected (/127.0.0.1:46890) [V26_2]
+22:37:43.493 INFO  Limbo -- Player Marcel disconnected
+22:40:34.546 INFO  Limbo -- Stopping server...
+22:40:34.548 INFO  Limbo -- Server stopped, Goodbye!

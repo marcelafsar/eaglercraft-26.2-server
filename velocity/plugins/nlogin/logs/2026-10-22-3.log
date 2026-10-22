@@ -1,0 +1,42 @@
+[2026/10/22 22:35:05]: §9          __             _       
+[2026/10/22 22:35:05]: §9  _ __   / /  ___   __ _(_)_ __  
+[2026/10/22 22:35:05]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/22 22:35:05]: §9 | | | / /__| (_) | (_| | | | | |
+[2026/10/22 22:35:05]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/22 22:35:05]: §9                  |___/            
+[2026/10/22 22:35:05]: §9 By: www.nickuc.com - V 10.4.23
+[2026/10/22 22:35:05]: §9 
+[2026/10/22 22:35:06]: §3[nLogin] [DEBUG] All settings were loaded in 210 ms.
+[2026/10/22 22:35:06]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2026/10/22 22:35:06]: §3[nLogin] [DEBUG] All plugin messages were loaded in 65 ms (languageByClient=false).
+[2026/10/22 22:35:06]: §3[nLogin] [DEBUG] All proxy settings were loaded in 13 ms.
+[2026/10/22 22:35:06]: §3[nLogin] [DEBUG] Loading database...
+[2026/10/22 22:35:06]: §3[nLogin] [DEBUG] Starting logger filter...
+[2026/10/22 22:35:11]: 
+[2026/10/22 22:35:11]:  §bThank you so much for choosing nLogin! §4<3
+[2026/10/22 22:35:11]: 
+[2026/10/22 22:35:11]:  §4For your safety, please read the message below:
+[2026/10/22 22:35:11]:   §cNever download nLogin from unknown sources.
+[2026/10/22 22:35:11]:   §cA modified version may contain malicious software.
+[2026/10/22 22:35:11]: 
+[2026/10/22 22:35:11]:  §3Trusted sources:
+[2026/10/22 22:35:11]:   §bwww.nickuc.com
+[2026/10/22 22:35:11]:   §bwww.github.com/nickuc
+[2026/10/22 22:35:11]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2026/10/22 22:35:11]: 
+[2026/10/22 22:35:11]:  §3Official support channels:
+[2026/10/22 22:35:11]:   §bDiscord group: §fwww.nickuc.com/discord
+[2026/10/22 22:35:11]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2026/10/22 22:35:11]:   §bEmail: §fsupport@nickuc.com
+[2026/10/22 22:35:11]:   §bYouTube: §fyoutube.com/nickuc
+[2026/10/22 22:35:11]: 
+[2026/10/22 22:35:11]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2026/10/22 22:35:11]:  §eand click the "Setup plugin" button to configure your plugin.
+[2026/10/22 22:35:11]: 
+[2026/10/22 22:35:33]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Marcel', a56d308056163a369ea739b0cbf57516, null, null, '$2a$10$ZzlmAUqjXQaHYvpG04nrwuldaTT6ae5fa6auYbhFfdJtARQmJgzC.', '0:0:0:0:0:0:0:1', '2026-10-22 22:35:32.977', '2026-10-22 22:35:32.977', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/10/22 22:35:33]: [nLogin] The user Marcel has successfully registered.
+[2026/10/22 22:36:09]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Marcel', `unique_id` = a56d308056163a369ea739b0cbf57516,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ZzlmAUqjXQaHYvpG04nrwuldaTT6ae5fa6auYbhFfdJtARQmJgzC.', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-10-22 22:35:32.977, `last_seen` = 2026-10-22 22:36:09.254, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/10/22 22:37:42]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Marcel', `unique_id` = a56d308056163a369ea739b0cbf57516,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ZzlmAUqjXQaHYvpG04nrwuldaTT6ae5fa6auYbhFfdJtARQmJgzC.', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-10-22 22:35:32.977, `last_seen` = 2026-10-22 22:37:42.924, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/22 22:37:42]: [nLogin] The user Marcel has successfully logged in.
+[2026/10/22 22:39:04]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Marcel', `unique_id` = a56d308056163a369ea739b0cbf57516,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ZzlmAUqjXQaHYvpG04nrwuldaTT6ae5fa6auYbhFfdJtARQmJgzC.', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-10-22 22:35:32.977, `last_seen` = 2026-10-22 22:39:04.897, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/10/22 22:40:33]: [nLogin] Successful plugin core shutdown (took 0.01s)
