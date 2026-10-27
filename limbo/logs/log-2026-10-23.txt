@@ -1,0 +1,30 @@
+01:50:10.416 INFO  Limbo -- Starting server...
+01:50:11.783 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+01:52:41.194 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:49558) [V26_2]
+01:52:50.488 INFO  Limbo -- Player Marcel connected (/127.0.0.1:58146) [V26_2]
+01:52:53.834 INFO  Limbo -- Player minguspingus disconnected
+01:52:55.303 INFO  Limbo -- Player Marcel disconnected
+01:56:17.982 INFO  Limbo -- Player Marcel connected (/127.0.0.1:59718) [V26_2]
+01:56:21.401 INFO  Limbo -- Player Marcel disconnected
+02:26:29.518 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:36876) [V26_2]
+02:26:35.578 INFO  Limbo -- Player minguspingus disconnected
+02:30:08.552 INFO  Limbo -- Player Marcel connected (/127.0.0.1:48390) [V26_2]
+02:30:12.436 INFO  Limbo -- Player Marcel disconnected
+03:00:56.136 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:47184) [V26_2]
+03:01:10.279 INFO  Limbo -- Player minguspingus disconnected
+03:05:38.702 INFO  Limbo -- Player Marcel connected (/127.0.0.1:37094) [V26_2]
+03:05:42.676 INFO  Limbo -- Player Marcel disconnected
+03:10:41.313 INFO  Limbo -- Player Marcel connected (/127.0.0.1:44380) [V26_2]
+03:10:45.433 INFO  Limbo -- Player Marcel disconnected
+03:23:52.082 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:59160) [V26_2]
+03:24:03.413 INFO  Limbo -- Player Marcel2 disconnected
+03:34:22.453 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:41158) [V26_2]
+03:34:28.724 INFO  Limbo -- Player minguspingus disconnected
+13:26:17.115 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:51014) [V26_2]
+13:26:21.009 INFO  Limbo -- Player Marcel2 disconnected
+13:28:01.318 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:41680) [V26_2]
+13:28:05.172 INFO  Limbo -- Player Marcel2 disconnected
+15:31:13.588 INFO  Limbo -- Starting server...
+15:31:14.669 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+15:32:43.503 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:43098) [V26_2]
+15:32:47.158 INFO  Limbo -- Player Marcel2 disconnected

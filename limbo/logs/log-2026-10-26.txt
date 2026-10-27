@@ -1,0 +1,70 @@
+14:31:51.818 INFO  Limbo -- Starting server...
+14:31:53.314 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+14:32:27.980 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:60248) [V26_2]
+14:32:41.333 INFO  Limbo -- Player Marcel2 disconnected
+14:32:43.204 INFO  Limbo -- Player feiner connected (/127.0.0.1:47814) [V26_2]
+14:33:04.239 INFO  Limbo -- Player feiner disconnected
+14:33:09.546 INFO  Limbo -- Player feiner connected (/127.0.0.1:34078) [V26_2]
+14:33:15.033 INFO  Limbo -- Player feiner disconnected
+14:34:44.901 INFO  Limbo -- Player KaiSuii connected (/127.0.0.1:52066) [V1_20_5]
+14:34:52.987 INFO  Limbo -- Player KaiSuii disconnected
+14:41:48.947 INFO  Limbo -- Player feiner connected (/127.0.0.1:47196) [V26_2]
+14:42:31.303 INFO  Limbo -- Player feiner disconnected
+14:42:32.573 INFO  Limbo -- Player feiner connected (/127.0.0.1:54064) [V26_2]
+14:42:38.739 INFO  Limbo -- Player feiner disconnected
+14:46:24.463 INFO  Limbo -- Player feiner connected (/127.0.0.1:37412) [V26_2]
+14:46:32.971 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:35844) [V26_2]
+14:46:54.439 INFO  Limbo -- Player feiner disconnected
+14:46:56.051 INFO  Limbo -- Player feiner connected (/127.0.0.1:34292) [V26_2]
+14:47:01.042 INFO  Limbo -- Player feiner disconnected
+14:47:02.993 ERROR Limbo -- Encountered exception
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed with error(-104): Connection reset by peer
+14:47:03.005 INFO  Limbo -- Player Marcel2 disconnected
+14:47:10.747 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:60628) [V26_2]
+14:47:17.891 INFO  Limbo -- Player Marcel2 disconnected
+14:48:46.897 INFO  Limbo -- Player feiner connected (/127.0.0.1:60694) [V26_2]
+14:48:48.391 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:60710) [V26_2]
+14:49:16.902 ERROR Limbo -- Encountered exception
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed with error(-104): Connection reset by peer
+14:49:16.904 INFO  Limbo -- Player feiner disconnected
+14:49:18.392 ERROR Limbo -- Encountered exception
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed with error(-104): Connection reset by peer
+14:49:18.393 INFO  Limbo -- Player Marcel2 disconnected
+14:49:23.483 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:57194) [V26_2]
+14:49:27.179 INFO  Limbo -- Player Marcel2 disconnected
+14:50:05.244 INFO  Limbo -- Player feiner connected (/127.0.0.1:36888) [V26_2]
+14:50:13.986 INFO  Limbo -- Player feiner disconnected
+18:54:06.275 INFO  Limbo -- Starting server...
+18:54:08.285 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+18:54:55.336 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:58390) [V26_2]
+18:55:01.981 INFO  Limbo -- Player Aimee_Ferguson connected (/127.0.0.1:58392) [V26_2]
+18:55:07.063 INFO  Limbo -- Player Marcel2 disconnected
+18:55:10.251 INFO  Limbo -- Player nozahz connected (/127.0.0.1:54120) [V26_2]
+18:55:35.046 INFO  Limbo -- Player nozahz disconnected
+18:55:35.075 INFO  Limbo -- Player Aimee_Ferguson disconnected
+18:58:24.520 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:42460) [V26_2]
+18:58:54.528 ERROR Limbo -- Encountered exception
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed with error(-104): Connection reset by peer
+18:58:54.535 INFO  Limbo -- Player Marcel2 disconnected
+18:59:00.881 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:34942) [V26_2]
+18:59:04.667 INFO  Limbo -- Player Marcel2 disconnected
+19:00:54.005 INFO  Limbo -- Player Aimee_Ferguson connected (/127.0.0.1:48560) [V26_2]
+19:00:59.867 INFO  Limbo -- Player Aimee_Ferguson disconnected
+19:08:37.485 INFO  Limbo -- Player nozahz connected (/127.0.0.1:53568) [V26_2]
+19:08:47.364 INFO  Limbo -- Player nozahz disconnected
+19:11:14.250 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:58146) [V26_2]
+19:11:17.044 INFO  Limbo -- Player Aimee_Ferguson connected (/127.0.0.1:58160) [V26_2]
+19:11:18.691 INFO  Limbo -- Player nozahz connected (/127.0.0.1:58176) [V26_2]
+19:11:41.433 INFO  Limbo -- Player nozahz disconnected
+19:11:42.950 INFO  Limbo -- Player nozahz connected (/127.0.0.1:33734) [V26_2]
+19:11:43.407 INFO  Limbo -- Player Aimee_Ferguson disconnected
+19:11:44.255 ERROR Limbo -- Encountered exception
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed with error(-104): Connection reset by peer
+19:11:44.256 INFO  Limbo -- Player Marcel2 disconnected
+19:11:48.515 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:43238) [V26_2]
+19:11:50.351 INFO  Limbo -- Player nozahz disconnected
+19:11:51.584 INFO  Limbo -- Player Marcel2 disconnected
+19:12:03.714 INFO  Limbo -- Player Aimee_Ferguson connected (/127.0.0.1:38474) [V26_2]
+19:12:12.384 INFO  Limbo -- Player Aimee_Ferguson disconnected
+19:17:50.702 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:55352) [V26_2]
+19:17:56.351 INFO  Limbo -- Player Marcel2 disconnected

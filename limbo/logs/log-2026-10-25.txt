@@ -1,0 +1,14 @@
+19:18:03.966 INFO  Limbo -- Starting server...
+19:18:17.411 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+19:18:57.015 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:42924) [V26_2]
+19:19:05.038 INFO  Limbo -- Player minguspingus disconnected
+19:20:19.241 INFO  Limbo -- Player Marcel connected (/127.0.0.1:40900) [V26_2]
+19:20:22.866 INFO  Limbo -- Player Marcel disconnected
+19:50:54.025 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:42644) [V26_2]
+19:51:02.247 INFO  Limbo -- Player minguspingus disconnected
+19:57:56.250 INFO  Limbo -- Player Marcel connected (/127.0.0.1:53126) [V26_2]
+19:58:00.508 INFO  Limbo -- Player Marcel disconnected
+20:27:37.374 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:47496) [V26_2]
+20:27:42.444 INFO  Limbo -- Player minguspingus disconnected
+21:02:52.412 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:60708) [V26_2]
+21:02:57.993 INFO  Limbo -- Player minguspingus disconnected

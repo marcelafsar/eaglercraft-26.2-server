@@ -1,118 +1,317 @@
-[22:34:20] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[22:34:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) for Minecraft 1.21.5
-[22:34:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:34:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[22:34:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[18:54:18] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[18:54:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) for Minecraft 1.21.5
+[18:54:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:54:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[18:54:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ViaBackwards (5.12.1), ViaRewind (4.2.0), ViaVersion (5.12.1)
-[22:34:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:34:33] [ServerMain/INFO]: Loaded 1373 recipes
-[22:34:33] [ServerMain/INFO]: Loaded 1484 advancements
-[22:34:33] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[22:34:33] [Server thread/INFO]: Loading properties
-[22:34:33] [Server thread/INFO]: This server is running Paper version 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[22:34:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:34:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:34:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:34:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:34:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:34:36] [Server thread/INFO]: Default game type: SURVIVAL
-[22:34:36] [Server thread/INFO]: Generating keypair
-[22:34:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:34:36] [Server thread/INFO]: Using epoll channel type
-[22:34:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:34:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:34:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.1
-[22:34:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.1 is now loaded. Registering protocol transformers and injecting...
-[22:34:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[22:34:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[22:34:40] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[22:34:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.1
-[22:34:40] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.2.0
-[22:34:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:34:40] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.2.0
-[22:34:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:34:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:34:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:34:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:34:40] [Server thread/INFO]: Preparing level "world"
-[22:34:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:34:41] [Server thread/INFO]: Preparing spawn area: 0%
-[22:34:42] [Server thread/INFO]: Preparing spawn area: 2%
-[22:34:42] [Server thread/INFO]: Preparing spawn area: 10%
-[22:34:43] [Server thread/INFO]: Preparing spawn area: 46%
-[22:34:43] [Server thread/INFO]: Preparing spawn area: 46%
-[22:34:43] [Server thread/INFO]: Time elapsed: 2198 ms
-[22:34:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:34:43] [Server thread/INFO]: Preparing spawn area: 0%
-[22:34:43] [Server thread/INFO]: Preparing spawn area: 28%
-[22:34:44] [Server thread/INFO]: Time elapsed: 670 ms
-[22:34:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:34:44] [Server thread/INFO]: Preparing spawn area: 0%
-[22:34:44] [Server thread/INFO]: Time elapsed: 382 ms
-[22:34:44] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.1
-[22:34:44] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
-[22:34:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.1
-[22:34:45] [Server thread/INFO]: [spark] Starting background profiler...
-[22:34:45] [Server thread/INFO]: Done preparing level "world" (4.759s)
-[22:34:45] [Server thread/INFO]: Running delayed init tasks
-[22:34:45] [Server thread/INFO]: Done (26.660s)! For help, type "help"
-[22:34:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[22:35:33] [User Authenticator #0/INFO]: UUID of player Marcel is a56d3080-5616-3a36-9ea7-39b0cbf57516
-[22:35:35] [Server thread/INFO]: Marcel joined the game
-[22:35:35] [Server thread/INFO]: Marcel[/127.0.0.1:43172] logged in with entity id 18 at ([world]-1.5, 71.0, 49.5)
-[22:36:04] [Server thread/INFO]: Marcel issued server command: /gamemode creative
-[22:36:08] [Server thread/INFO]: Marcel issued server command: /gamemode creative
-[22:36:09] [Server thread/INFO]: Marcel lost connection: Disconnected
-[22:36:09] [Server thread/INFO]: Marcel left the game
-[22:37:31] [Server thread/INFO]: Made Marcel a server operator
-[22:37:43] [User Authenticator #1/INFO]: UUID of player Marcel is a56d3080-5616-3a36-9ea7-39b0cbf57516
-[22:37:43] [Server thread/INFO]: Marcel joined the game
-[22:37:43] [Server thread/INFO]: Marcel[/127.0.0.1:34336] logged in with entity id 207 at ([world]6.889349844355578, 71.0, 54.4582692418755)
-[22:37:48] [Server thread/INFO]: Marcel issued server command: /gamemode creative
-[22:37:48] [Server thread/INFO]: [Marcel: Set own game mode to Creative Mode]
-[22:37:50] [Server thread/INFO]: Marcel issued server command: /time set day
-[22:37:50] [Server thread/INFO]: [Marcel: Set the time to 1000]
-[22:38:38] [Server thread/INFO]: Marcel issued server command: //wand
-[22:38:43] [Server thread/INFO]: Marcel issued server command: /give @p minecraft:command_block
-[22:38:43] [Server thread/INFO]: [Marcel: Gave 1 [Command Block] to Marcel]
-[22:38:49] [Server thread/INFO]: Marcel issued server command: /give @p minecraft:acacia_button
-[22:38:49] [Server thread/INFO]: [Marcel: Gave 1 [Acacia Button] to Marcel]
-[22:39:04] [Server thread/INFO]: Marcel lost connection: Disconnected
-[22:39:04] [Server thread/INFO]: Marcel left the game
-[22:40:20] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[22:40:20] [Server thread/INFO]: Stopping server
-[22:40:20] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.2.0
-[22:40:20] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.12.1
-[22:40:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.12.1
-[22:40:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[22:40:20] [Server thread/INFO]: Saving players
-[22:40:20] [Server thread/INFO]: Saving worlds
-[22:40:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:40:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:40:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:40:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 683 entity chunks, 0 poi chunks in world 'world' in 2.91s
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:40:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:40:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:40:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:40:23] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:40:23] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[22:40:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:40:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:54:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:54:40] [ServerMain/INFO]: Loaded 1373 recipes
+[18:54:40] [ServerMain/INFO]: Loaded 1484 advancements
+[18:54:40] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[18:54:40] [Server thread/INFO]: Loading properties
+[18:54:41] [Server thread/INFO]: This server is running Paper version 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[18:54:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:54:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:54:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:54:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:54:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:54:45] [Server thread/INFO]: Default game type: SURVIVAL
+[18:54:45] [Server thread/INFO]: Generating keypair
+[18:54:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:54:45] [Server thread/INFO]: Using epoll channel type
+[18:54:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:54:45] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[18:54:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.1
+[18:54:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.1 is now loaded. Registering protocol transformers and injecting...
+[18:54:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:54:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:54:51] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[18:54:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.1
+[18:54:52] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.2.0
+[18:54:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:54:52] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.2.0
+[18:54:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:54:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:54:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:54:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:54:52] [Server thread/INFO]: Preparing level "world"
+[18:54:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:54:55] [Server thread/INFO]: Preparing spawn area: 0%
+[18:54:55] [Server thread/INFO]: Preparing spawn area: 0%
+[18:54:55] [Server thread/INFO]: Preparing spawn area: 0%
+[18:54:55] [Server thread/INFO]: Preparing spawn area: 2%
+[18:54:56] [Server thread/INFO]: Preparing spawn area: 2%
+[18:54:56] [Server thread/INFO]: Preparing spawn area: 2%
+[18:54:57] [Server thread/INFO]: Preparing spawn area: 10%
+[18:54:57] [Server thread/INFO]: Preparing spawn area: 97%
+[18:54:57] [Server thread/INFO]: Time elapsed: 3519 ms
+[18:54:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:54:57] [Server thread/INFO]: Preparing spawn area: 0%
+[18:54:58] [Server thread/INFO]: Preparing spawn area: 8%
+[18:54:58] [Server thread/INFO]: Preparing spawn area: 53%
+[18:54:58] [Server thread/INFO]: Time elapsed: 1260 ms
+[18:54:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:54:59] [Server thread/INFO]: Preparing spawn area: 0%
+[18:54:59] [Server thread/INFO]: Preparing spawn area: 8%
+[18:54:59] [Server thread/INFO]: Time elapsed: 781 ms
+[18:54:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.1
+[18:55:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[18:55:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.1
+[18:55:02] [Server thread/INFO]: [spark] Starting background profiler...
+[18:55:05] [Server thread/INFO]: Done preparing level "world" (12.764s)
+[18:55:05] [Server thread/INFO]: Running delayed init tasks
+[18:55:05] [Server thread/INFO]: Done (48.504s)! For help, type "help"
+[18:55:05] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:55:05] [User Authenticator #0/INFO]: UUID of player Marcel2 is df56c5a1-0082-3c76-903e-15eef46f6b72
+[18:55:08] [Server thread/INFO]: Marcel2 joined the game
+[18:55:08] [Server thread/INFO]: Marcel2[/127.0.0.1:41900] logged in with entity id 1 at ([world]620.6861880221162, 0.0, 1344.3099631739894)
+[18:55:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2643ms or 52 ticks behind
+[18:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2772ms or 55 ticks behind
+[18:55:34] [User Authenticator #0/INFO]: UUID of player nozahz is 07e4931d-acc7-319d-aeab-5e58f20f0443
+[18:55:35] [User Authenticator #0/INFO]: UUID of player Aimee_Ferguson is a1bf8529-413d-340b-8f4d-d75630db8664
+[18:55:35] [Server thread/INFO]: nozahz joined the game
+[18:55:35] [Server thread/INFO]: nozahz[/127.0.0.1:54350] logged in with entity id 208 at ([world]63.5, 65.0, -44.5)
+[18:55:35] [Server thread/INFO]: Aimee_Ferguson joined the game
+[18:55:35] [Server thread/INFO]: Aimee_Ferguson[/127.0.0.1:54366] logged in with entity id 209 at ([world]56.5, 65.0, -52.5)
+[18:55:48] [Server thread/INFO]: Marcel2 issued server command: /kill @e
+[18:55:48] [Server thread/INFO]: Marcel2 was killed
+[18:55:48] [Server thread/INFO]: Aimee_Ferguson was killed
+[18:55:48] [Server thread/INFO]: nozahz was killed
+[18:55:48] [Server thread/INFO]: [Marcel2: Killed 680 entities]
+[18:56:15] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel
+[18:56:19] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[18:56:19] [Server thread/INFO]: [Marcel2: Teleported 219 entities to Marcel2]
+[18:56:20] [Server thread/INFO]: nozahz has made the advancement [Monster Hunter]
+[18:56:20] [Server thread/INFO]: Aimee_Ferguson was blown up by Creeper
+[18:56:25] [Server thread/INFO]: Marcel2 issued server command: /kill @e
+[18:56:25] [Server thread/INFO]: Marcel2 was killed
+[18:56:25] [Server thread/INFO]: Aimee_Ferguson was killed
+[18:56:25] [Server thread/INFO]: nozahz was killed
+[18:56:25] [Server thread/INFO]: [Marcel2: Killed 140 entities]
+[18:56:42] [Server thread/INFO]: Marcel2 issued server command: /give @p button
+[18:56:45] [Server thread/INFO]: Marcel2 issued server command: /give @p minecraft:acacia_button
+[18:56:45] [Server thread/INFO]: [Marcel2: Gave 1 [Acacia Button] to Marcel2]
+[18:56:53] [Server thread/INFO]: [@: Summoned new Falling Block of Redstone]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Removed 20 item(s) from player nozahz]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Helmet]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Chestplate]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Leggings]]
+[18:56:54] [Server thread/INFO]: nozahz has completed the challenge [Cover Me in Debris]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Boots]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Sword]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [End Crystal]]
+[18:56:54] [Server thread/INFO]: nozahz has made the advancement [Ice Bucket Challenge]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Obsidian]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Respawn Anchor]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Pickaxe]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Golden Apple]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Bottle o' Enchanting]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Respawn Anchor]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [End Crystal]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Obsidian]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Bottle o' Enchanting]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Totem of Undying]]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Gave 21 [Totem of Undying] to nozahz]
+[18:56:54] [Server thread/INFO]: [Minecart with Command Block: Killed 23 entities]
+[18:56:59] [Server thread/INFO]: [@: Summoned new Falling Block of Redstone]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Removed 14 item(s) from player Aimee_Ferguson]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Helmet]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Chestplate]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Leggings]]
+[18:57:00] [Server thread/INFO]: Aimee_Ferguson has completed the challenge [Cover Me in Debris]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Boots]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Sword]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [End Crystal]]
+[18:57:00] [Server thread/INFO]: Aimee_Ferguson has made the advancement [Ice Bucket Challenge]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Obsidian]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Respawn Anchor]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Pickaxe]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Golden Apple]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Bottle o' Enchanting]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Respawn Anchor]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [End Crystal]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Obsidian]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Bottle o' Enchanting]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Totem of Undying]]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Gave 21 [Totem of Undying] to Aimee_Ferguson]
+[18:57:00] [Server thread/INFO]: [Minecart with Command Block: Killed 23 entities]
+[18:57:39] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[18:57:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2785ms or 55 ticks behind
+[18:57:45] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[18:57:53] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[18:58:07] [Server thread/INFO]: Marcel2 has made the advancement [Who is Cutting Onions?]
+[18:58:24] [Server thread/INFO]: Marcel2 lost connection: Timed out
+[18:58:24] [Server thread/INFO]: Marcel2 left the game
+[18:58:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31775ms or 635 ticks behind
+[18:59:04] [User Authenticator #1/INFO]: UUID of player Marcel2 is df56c5a1-0082-3c76-903e-15eef46f6b72
+[18:59:05] [Server thread/INFO]: Marcel2 joined the game
+[18:59:05] [Server thread/INFO]: Marcel2[/127.0.0.1:52422] logged in with entity id 7123 at ([world]-22.05592285272882, 92.0, 84.88037516715869)
+[18:59:15] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[18:59:15] [Server thread/INFO]: [Marcel2: Teleported 774 entities to Marcel2]
+[18:59:15] [Server thread/INFO]: Marcel2 has made the advancement [Acquire Hardware]
+[18:59:19] [Server thread/INFO]: Villager Villager['Villager'/7165, uuid='b3f59448-13db-4cfc-9d7b-7f2889f31c75', l='ServerLevel[world]', x=-11.71, y=92.00, z=81.56, cpos=[-1, 5], tl=52, v=true] died, message: 'Villager was blown up by Creeper'
+[18:59:38] [Server thread/INFO]: Aimee_Ferguson has made the advancement [Monster Hunter]
+[18:59:51] [Server thread/INFO]: Marcel2 issued server command: /tp Aimee_Ferguson nozahz
+[18:59:51] [Server thread/INFO]: [Marcel2: Teleported Aimee_Ferguson to nozahz]
+[19:00:28] [Server thread/INFO]: Aimee_Ferguson lost connection: Disconnected
+[19:00:28] [Server thread/INFO]: Aimee_Ferguson left the game
+[19:00:59] [User Authenticator #2/INFO]: UUID of player Aimee_Ferguson is a1bf8529-413d-340b-8f4d-d75630db8664
+[19:01:00] [Server thread/INFO]: Aimee_Ferguson joined the game
+[19:01:00] [Server thread/INFO]: Aimee_Ferguson[/127.0.0.1:51994] logged in with entity id 8200 at ([world]-12.096152403605203, 92.0, 87.09086455470778)
+[19:01:07] [Server thread/INFO]: Aimee_Ferguson has made the advancement [Not Quite "Nine" Lives]
+[19:01:08] [Server thread/INFO]: Marcel2 issued server command: /tp Aimee_Ferguson nozahz
+[19:01:08] [Server thread/INFO]: [Marcel2: Teleported Aimee_Ferguson to nozahz]
+[19:01:16] [Server thread/INFO]: Marcel2 issued server command: /tp Aimee_Ferguson nozahz
+[19:01:16] [Server thread/INFO]: [Marcel2: Teleported Aimee_Ferguson to nozahz]
+[19:01:20] [Server thread/INFO]: Aimee_Ferguson has reached the goal [Postmortal]
+[19:02:26] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:02:26] [Server thread/INFO]: [Marcel2: Teleported 336 entities to Marcel2]
+[19:03:35] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[19:03:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2755ms or 55 ticks behind
+[19:03:44] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:03:44] [Server thread/INFO]: [Marcel2: Teleported 1421 entities to Marcel2]
+[19:03:49] [Server thread/INFO]: Villager Villager['Villager'/7255, uuid='d1d51a3d-de19-4631-9b5e-8329eef184a1', l='ServerLevel[world]', x=-10.49, y=79.99, z=41.02, cpos=[-1, 2], tl=5227, v=true] died, message: 'Villager was slain by Husk'
+[19:04:10] [Server thread/INFO]: Marcel2 issued server command: /tp nozahz marcel2
+[19:04:10] [Server thread/INFO]: [Marcel2: Teleported nozahz to Marcel2]
+[19:04:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20572ms or 411 ticks behind
+[19:04:16] [Server thread/INFO]: Marcel2 issued server command: /tp Aimee_Ferguson Marcel2
+[19:04:16] [Server thread/INFO]: [Marcel2: Teleported Aimee_Ferguson to Marcel2]
+[19:05:35] [Server thread/INFO]: nozahz has reached the goal [Postmortal]
+[19:05:51] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:05:51] [Server thread/INFO]: [Marcel2: Teleported 743 entities to Marcel2]
+[19:06:10] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:06:10] [Server thread/INFO]: [Marcel2: Teleported 257 entities to Marcel2]
+[19:07:10] [Server thread/INFO]: nozahz has made the advancement [Not Quite "Nine" Lives]
+[19:07:22] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:07:22] [Server thread/INFO]: [Marcel2: Teleported 463 entities to Marcel2]
+[19:07:33] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[19:07:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2572ms or 51 ticks behind
+[19:07:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4846ms or 96 ticks behind
+[19:08:14] [Server thread/INFO]: nozahz lost connection: Disconnected
+[19:08:14] [Server thread/INFO]: nozahz left the game
+[19:08:15] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:08:15] [Server thread/INFO]: [Marcel2: Teleported 843 entities to Marcel2]
+[19:08:24] [Server thread/INFO]: Aimee_Ferguson was slain by Warden
+[19:08:32] [Server thread/INFO]: Marcel2 issued server command: /kill @e
+[19:08:32] [Server thread/INFO]: Aimee_Ferguson was killed
+[19:08:32] [Server thread/INFO]: Marcel2 was killed
+[19:08:32] [Server thread/INFO]: [Marcel2: Killed 486 entities]
+[19:08:47] [User Authenticator #3/INFO]: UUID of player nozahz is 07e4931d-acc7-319d-aeab-5e58f20f0443
+[19:08:47] [Server thread/INFO]: nozahz joined the game
+[19:08:47] [Server thread/INFO]: nozahz[/127.0.0.1:48910] logged in with entity id 18014 at ([world]-73.20608144968568, 73.0, 85.89937279866287)
+[19:08:58] [Server thread/INFO]: Marcel2 issued server command: /kill @e
+[19:08:58] [Server thread/INFO]: Aimee_Ferguson was killed
+[19:08:58] [Server thread/INFO]: Marcel2 was killed
+[19:08:58] [Server thread/INFO]: nozahz was killed
+[19:08:58] [Server thread/INFO]: [Marcel2: Killed 512 entities]
+[19:09:04] [Server thread/INFO]: [@: Summoned new Falling Block of Redstone]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Removed 1 item(s) from player Aimee_Ferguson]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Helmet]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Chestplate]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Leggings]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Boots]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Sword]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [End Crystal]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Obsidian]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Respawn Anchor]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Netherite Pickaxe]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Golden Apple]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Bottle o' Enchanting]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Respawn Anchor]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Glowstone]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [End Crystal]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Obsidian]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Bottle o' Enchanting]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on Aimee_Ferguson with [Totem of Undying]]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Gave 21 [Totem of Undying] to Aimee_Ferguson]
+[19:09:05] [Server thread/INFO]: [Minecart with Command Block: Killed 23 entities]
+[19:09:12] [Server thread/INFO]: [@: Summoned new Falling Block of Redstone]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Helmet]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Chestplate]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Leggings]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Boots]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Sword]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [End Crystal]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Obsidian]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Respawn Anchor]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Netherite Pickaxe]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Golden Apple]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Bottle o' Enchanting]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Respawn Anchor]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Glowstone]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [End Crystal]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Obsidian]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Bottle o' Enchanting]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Replaced a slot on nozahz with [Totem of Undying]]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Gave 21 [Totem of Undying] to nozahz]
+[19:09:14] [Server thread/INFO]: [Minecart with Command Block: Killed 23 entities]
+[19:09:55] [Server thread/INFO]: Marcel2 issued server command: /tp nozahz marcel2
+[19:09:55] [Server thread/INFO]: [Marcel2: Teleported nozahz to Marcel2]
+[19:09:59] [Server thread/INFO]: Marcel2 issued server command: /tp Aimee_Ferguson marcel2
+[19:09:59] [Server thread/INFO]: [Marcel2: Teleported Aimee_Ferguson to Marcel2]
+[19:10:28] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[19:10:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
+[19:10:34] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[19:10:41] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[19:11:13] [Server thread/INFO]: Marcel2 lost connection: Timed out
+[19:11:13] [Server thread/INFO]: Marcel2 left the game
+[19:11:17] [Server thread/INFO]: Aimee_Ferguson lost connection: Timed out
+[19:11:17] [Server thread/INFO]: Aimee_Ferguson left the game
+[19:11:18] [Server thread/INFO]: nozahz lost connection: Timed out
+[19:11:18] [Server thread/INFO]: nozahz left the game
+[19:11:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35957ms or 719 ticks behind
+[19:11:50] [User Authenticator #4/INFO]: UUID of player nozahz is 07e4931d-acc7-319d-aeab-5e58f20f0443
+[19:11:50] [Server thread/INFO]: nozahz joined the game
+[19:11:50] [Server thread/INFO]: nozahz[/127.0.0.1:52822] logged in with entity id 22893 at ([world]-27.879618489720517, 118.0, 84.48219248391844)
+[19:11:51] [User Authenticator #4/INFO]: UUID of player Marcel2 is df56c5a1-0082-3c76-903e-15eef46f6b72
+[19:11:51] [Server thread/INFO]: Marcel2 joined the game
+[19:11:51] [Server thread/INFO]: Marcel2[/127.0.0.1:52834] logged in with entity id 22894 at ([world]31.30000001192093, 133.83915445276605, 85.30000001192093)
+[19:11:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2536ms or 50 ticks behind
+[19:12:12] [User Authenticator #4/INFO]: UUID of player Aimee_Ferguson is a1bf8529-413d-340b-8f4d-d75630db8664
+[19:12:12] [Server thread/INFO]: Aimee_Ferguson joined the game
+[19:12:12] [Server thread/INFO]: Aimee_Ferguson[/127.0.0.1:43640] logged in with entity id 22931 at ([world]-35.21006583282241, 118.0, 95.54185709102023)
+[19:12:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3541ms or 70 ticks behind
+[19:12:24] [Server thread/INFO]: Marcel2 issued server command: /give nozahz minecraft:enchanted_golden_apple 64
+[19:12:24] [Server thread/INFO]: [Marcel2: Gave 64 [Enchanted Golden Apple] to nozahz]
+[19:12:35] [Server thread/INFO]: Marcel2 issued server command: /tp Aimee_Ferguson marcel2
+[19:12:35] [Server thread/INFO]: [Marcel2: Teleported Aimee_Ferguson to Marcel2]
+[19:12:55] [Server thread/INFO]: Marcel2 issued server command: /give Aimee_Ferguson minecraft:enchanted_golden_apple 64
+[19:12:55] [Server thread/INFO]: [Marcel2: Gave 64 [Enchanted Golden Apple] to Aimee_Ferguson]
+[19:13:06] [Server thread/INFO]: Marcel2 issued server command: /tp @e marcel2
+[19:13:06] [Server thread/INFO]: [Marcel2: Teleported 1091 entities to Marcel2]
+[19:13:28] [Server thread/INFO]: Aimee_Ferguson lost connection: Disconnected
+[19:13:28] [Server thread/INFO]: Aimee_Ferguson left the game
+[19:13:31] [Server thread/INFO]: Marcel2 issued server command: /kill @e
+[19:13:31] [Server thread/INFO]: nozahz was killed while fighting Witch
+[19:13:31] [Server thread/INFO]: Marcel2 was killed
+[19:13:31] [Server thread/INFO]: [Marcel2: Killed 204 entities]
+[19:13:33] [Server thread/INFO]: nozahz lost connection: Disconnected
+[19:13:34] [Server thread/INFO]: nozahz left the game
+[19:13:35] [Server thread/INFO]: Marcel2 lost connection: Disconnected
+[19:13:35] [Server thread/INFO]: Marcel2 left the game
+[19:17:56] [User Authenticator #5/INFO]: UUID of player Marcel2 is df56c5a1-0082-3c76-903e-15eef46f6b72
+[19:17:57] [Server thread/INFO]: Marcel2 joined the game
+[19:17:57] [Server thread/INFO]: Marcel2[/127.0.0.1:39622] logged in with entity id 24052 at ([world]63.5, 65.0, -59.5)
+[19:18:21] [Server thread/INFO]: Marcel2 issued server command: /give @p minecraft:elder_guardian_spawn_egg 64
+[19:18:21] [Server thread/INFO]: [Marcel2: Gave 64 [Elder Guardian Spawn Egg] to Marcel2]
+[19:18:39] [Server thread/INFO]: Marcel2 issued server command: /gamemode survival
+[19:18:39] [Server thread/INFO]: [Marcel2: Set own game mode to Survival Mode]
+[19:19:03] [Server thread/INFO]: Marcel2 was killed while trying to hurt Elder Guardian
+[19:19:14] [Server thread/INFO]: Marcel2 issued server command: /gamemode creative
+[19:19:14] [Server thread/INFO]: [Marcel2: Set own game mode to Creative Mode]
+[19:19:15] [Server thread/INFO]: Marcel2 lost connection: Disconnected
+[19:19:15] [Server thread/INFO]: Marcel2 left the game

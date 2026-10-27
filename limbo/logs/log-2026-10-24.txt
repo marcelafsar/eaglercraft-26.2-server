@@ -1,0 +1,16 @@
+04:36:46.369 INFO  Limbo -- Starting server...
+04:36:47.620 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+04:38:21.353 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:53442) [V26_2]
+04:38:26.655 INFO  Limbo -- Player Marcel2 disconnected
+04:40:22.022 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:51150) [V26_2]
+04:40:28.580 INFO  Limbo -- Player minguspingus disconnected
+04:52:56.306 INFO  Limbo -- Player EaglerEagl2735 connected (/127.0.0.1:33750) [V26_2]
+04:53:40.881 INFO  Limbo -- Player EaglerEagl2735 disconnected
+04:53:55.284 INFO  Limbo -- Player EaglerEagl2735 connected (/127.0.0.1:58124) [V26_2]
+04:54:18.735 INFO  Limbo -- Player EaglerEagl2735 disconnected
+04:57:52.970 INFO  Limbo -- Player Marcel2 connected (/127.0.0.1:38142) [V26_2]
+04:57:57.520 INFO  Limbo -- Player Marcel2 disconnected
+16:34:38.117 INFO  Limbo -- Starting server...
+16:34:39.700 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+16:35:27.792 INFO  Limbo -- Player minguspingus connected (/127.0.0.1:52172) [V26_2]
+16:35:43.586 INFO  Limbo -- Player minguspingus disconnected
